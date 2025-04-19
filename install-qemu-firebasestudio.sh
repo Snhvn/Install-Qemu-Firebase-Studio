@@ -13,9 +13,9 @@ read iso1
 wget -O win.iso $iso1
 wget -O virto.iso https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/archive-virtio/virtio-win-0.1.271-1/virtio-win-0.1.271.iso
 cd
-echo -e "Bạn muốn bao nhiêu disk"
+echo -e "Bạn muốn bao nhiêu G"
 read sizedisk
-qemu-img create -f qcow2 /home/user/Qemu/disk.qcow2 $sizedisk
+qemu-img create -f qcow2 /home/user/Qemu/disk.qcow2 $sizediskG
 clear
 echo "------------------------"
 echo "SNIPA VN"
