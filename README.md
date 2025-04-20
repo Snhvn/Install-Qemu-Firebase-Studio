@@ -1,4 +1,5 @@
 # Install-Qemu-Firebase-Studio
+# Nhớ nhập 'sudo su' để cài
 • Lệnh setup:
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/Snhvn/Install-Qemu-Firebase-Studio/refs/heads/main/install-qemu-firebasestudio.sh)
