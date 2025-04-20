@@ -9,7 +9,7 @@ sleep 2
 clear
 echo "Đang tải package cho qemu"
 sudo apt update && sudo apt install qemu-system -y
-cd /Android/Downloads
+cd Downloads
 echo -e "Vui lòng nhập iso windows/linux"
 read iso1
 wget -O win.iso $iso1
