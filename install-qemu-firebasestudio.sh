@@ -6,8 +6,7 @@ echo "------------------------"
 clear
 echo "Đang tải package cho qemu"
 sudo apt update && sudo apt install qemu-system -y
-mkdir Qemu
-cd Qemu
+cd /Android/Downloads
 echo -e "Vui lòng nhập iso windows/linux"
 read iso1
 wget -O win.iso $iso1
@@ -15,7 +14,7 @@ wget -O virto.iso https://fedorapeople.org/groups/virt/virtio-win/direct-downloa
 cd
 echo -e "Bạn muốn bao nhiêu G"
 read sizedisk
-qemu-img create -f qcow2 /home/user/Qemu/disk.qcow2 $sizediskG
+qemu-img create -f qcow2 /home/user/Android/Sdk/disk.qcow2 $sizedisk
 clear
 echo "------------------------"
 echo "SNIPA VN"
