@@ -1,8 +1,11 @@
 #!/bin/bash
+clear
 echo "------------------------"
 echo "SNIPA VN"
 echo "YouTube: https://youtube.com/@snipavn205"
 echo "------------------------"
+echo "Chờ 2s để bắt đầu cài đặt"
+sleep 2
 clear
 echo "Đang tải package cho qemu"
 sudo apt update && sudo apt install qemu-system -y
@@ -20,4 +23,4 @@ echo "------------------------"
 echo "SNIPA VN"
 echo "YouTube: https://youtube.com/@snipavn205"
 echo "------------------------"
-echo "Đã Xong ✔️ giờ vào trang web Cài Qemu trên Firebase Studio - Online Notepad 'https://anotepad.com/notes/8jcm8256' có lệnh để cài win và cài mạng" 
+echo "Đã Xong ✔️ giờ vào trang github này để chép lệnh qemu tiếp theo https://github.com/Snhvn/Install-Qemu-Firebase-Studio/blob/main/README.md"
