@@ -22,8 +22,7 @@ sudo systemctl enable saned.service
 sudo systemctl start saned.service
 sudo systemctl unmask docker.service
 sudo systemctl unmask docker.socket
-sudo systemctl unmask
-containerd.service
+sudo systemctl unmask containerd.service
 
 
 sudo systemctl enable docker.service
